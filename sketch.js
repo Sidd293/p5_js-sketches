@@ -16,7 +16,8 @@ function setup() {
 
 function mousePressed() {
   f = -f
-
+if (mouseX<t)
+ { t=-t}
 }
 
 function draw() {
