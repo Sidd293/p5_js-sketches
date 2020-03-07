@@ -1,3 +1,4 @@
+//cac = 1
 w=400
 lvl = 4
 levl = 0
@@ -16,7 +17,7 @@ function setup() {
 
 function mousePressed() {
   f = -f
-if (mouseX<t)
+if (mouseX<x)
  { t=-t}
 }
 
