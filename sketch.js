@@ -20,7 +20,7 @@ mic  = new p5.AudioIn()
 }
 var y=200
 var vel = 0
-var g  = .7
+var g  = .4
 
 function jump()
 {vel = -8
@@ -65,7 +65,7 @@ fill(255)
   }
 
 if(vol>th)
- { vel=-4
+ { vel=-20*vol
   }
 
 for (var l =0;l<25;l++)
