@@ -43,10 +43,10 @@ for( var k = 0 ;k<25;k++)
 { fill(255,0,0)
 }
  rectMode(CENTER)
- text(k,by[k]+20,height - 100*k+20)
- ellipse(by[k],height - 100*k,10,10)
+ text(k,by[k]+20,height -87*k+20)
+ ellipse(by[k],height - 87*k,10,10)
 fill(255)
- by[k]++;
+ by[k]=by[k]+1;
   if(by[k]>width)
     by[k] = 0
   
@@ -71,7 +71,7 @@ if(vol>th)
 for (var l =0;l<25;l++)
 {var x1 = 200
  var x2 = by[l]
- var y2 = height - 100*l
+ var y2 = height - 87*l
  var y1 = y
 if((x1-x2)*(x1-x2)+(y2-y1)*(y2-y1)<255)
  { 
