@@ -4,6 +4,7 @@ var c = 1
 var by =[]
 var a =0
 var mic
+Var lyf=50
 function mousePressed ()
 {vel=-8
   }
@@ -31,7 +32,7 @@ function  mousePresssed()
 }
 function draw() {
 th = sl.value()/1000
-  background(0);
+  background(0)text(lyf,10,10)
 y+=vel
   vel+=g
  var vol = mic.getLevel();
@@ -75,7 +76,7 @@ for (var l =0;l<25;l++)
  var y1 = y
 if((x1-x2)*(x1-x2)+(y2-y1)*(y2-y1)<255)
  { 
-   exit()
+   lyf--
   }
 }
 }
