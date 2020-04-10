@@ -38,7 +38,7 @@ y+=vel
   vel+=g
  var vol = mic.getLevel();
   rect(0,y,20,vol*100)
-  
+  ellipse(width/2,y,20,20)
   translate(0,a,0)
 for( var k = 0 ;k<25;k++)
 {if(k>0)
@@ -80,5 +80,5 @@ if((x1-x2)*(x1-x2)+(y2-y1)*(y2-y1)<255)
    lyf--
   }
 }
-  ellipse(width/2,y,20,20)
+  
 }
