@@ -4,7 +4,7 @@ var c = 1
 var by =[]
 var a =0
 var mic
-Var lyf=50
+var lyf=50
 function mousePressed ()
 {vel=-8
   }
