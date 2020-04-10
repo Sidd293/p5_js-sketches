@@ -32,7 +32,8 @@ function  mousePresssed()
 }
 function draw() {
 th = sl.value()/1000
-  background(0)text(lyf,10,10)
+  background(0)
+  text(lyf,10,10)
 y+=vel
   vel+=g
  var vol = mic.getLevel();
